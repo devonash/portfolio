@@ -14,5 +14,5 @@ images:
 tags:
   - Ilustrator
   - Photoshop
-  -After Effects
+  - After Effects
 ---
