@@ -27,12 +27,46 @@ img {
     display: block;
 }
 
-.nav{
+.header {
 	background-color: yellow;
+}
+
+.nav{
+	display: none;
+}
+
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+.nav-check {
+	position: absolute;
+	top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+	background-color: grey;
 }
 
 .billboard {
 	width: 100%;
+}
+
+.intro {
+	position: relative;
+}
+
+.toggle-ab {
+	position: absolute;
+}
+
+.toggle-rel {
+	position: relative;
+}
+
+.billboard-text {
+	position: absolute;
+	top:2em;
 }
 
 .list-group {
