@@ -95,12 +95,6 @@ img {
   display: inline-block;
 }
 
-.btn {
-    width: 36px;
-    display: inline-block;
-    margin: 0.2em;
-}
-
 .down-arrow {
 	position: absolute;
 	height: 50px;
@@ -115,6 +109,7 @@ img {
 	padding-bottom: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
+	background-color: grey;
 }
 
 footer {
@@ -139,8 +134,10 @@ footer > h2 {
 }
 
 .media-links > a {
-    width: 16%;
+    width: 50px;
 	padding-top: 1em;
+	margin: 0.2em;
+	display: inline-block;
 }
 
 .top-arrow {
@@ -153,3 +150,14 @@ footer > h2 {
 .copyright {
 	text-align: center;
 }
+
+.work-nav > a {
+	width: 16%;
+	padding-top: 1em;
+	margin: 0.5em;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+
