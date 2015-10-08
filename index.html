@@ -12,7 +12,7 @@
 <body>
  
     <header class="header" id="top">
-
+		
 		<input type="checkbox" class="nav-check" id="nav-check">
 		<label class="nav-label" for="nav-check"><img class="toggle-img" src="img/toggle-black.svg"></label>
 			<nav class="nav">
@@ -31,11 +31,13 @@
 		<div class="intro">
             <img class="billboard" src="http://placehold.it/1920x1165" alt="Photo of Devon Ash">
             <h1 class="billboard-text push-0">Devon Ash</h1>
-			<p class="billboard-text">Tidbit about me</p>
+			<p class="billboard-text under-name">Tidbit about me</p>
+			<a href="#down"><img class="down-arrow" src="img/down-arrow.svg" alt="Down Arrow"></a>
 		</div>
+		
     </header>
     
-    <main>
+    <main id="down">
 		<div class="grid">
 			<div class="about unit unit-s-1 unit-m-1 unit-l-1" id="about">
 				<h2>Hey There!</h2>
@@ -63,8 +65,10 @@
     </main>
 	
 	<footer id="contact">
-		<h2>Contact Me!</h2>
-		<a href="http://devonash.ca/">hey@devonash.ca</a>
+		<h2>Let's Connect</h2>
+		<div class="mail">
+			<a class="tera" href="http://devonash.ca/">hey@devonash.ca</a>
+		</div>
 		<div class="media-links">
         	<a href="https://www.behance.net/devonash" class="btn">
             	<img src="img/socialmedia-icons-behance.svg" alt="Behance Icon">
@@ -75,8 +79,9 @@
             <a href="https://vimeo.com/user36545751" class="btn" >
             	<img src="img/socialmedia-icons-vimeo.svg" alt="Linkedin Icon">
             </a>
-			<a href="#top">^</a>
         </div>
+		<a href="#top"><img class="top-arrow" src="img/up-arrow.svg" alt="Up Arrow"></a>
+		<p>Copyright © 2016 Devon Ash</p>
 	</footer>
 
 </body>
