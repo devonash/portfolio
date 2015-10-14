@@ -68,9 +68,12 @@ img {
 
 .billboard-text {
 	position: absolute;
-	top: 5em;
-	Left: 50%;
-	Transform: translateX(-50%);
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .list-group {
@@ -96,12 +99,9 @@ img {
 }
 
 .down-arrow {
-	position: absolute;
 	height: 50px;
 	width: 50px;
-	Left: 50%;
-	Transform: translateX(-50%);
-	
+	margin: 0 auto;
 }
 
 .about {
@@ -110,6 +110,14 @@ img {
 	padding-left: 2em;
 	padding-right: 2em;
 	background-color: grey;
+}
+
+.hey {
+	text-align: center;
+}
+
+.about-para {
+	text-align: center;
 }
 
 footer {
