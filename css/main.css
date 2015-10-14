@@ -156,16 +156,16 @@ footer > h2 {
 }
 
 .arrow-btn {
-	width: 30%;
+	width: 40%;
 	margin-top: 0.5em;
 	display: inline-block;
-
 }
 
 .home-btn {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
+	margin-top: 0.5em;
 }
 
 .project {
@@ -175,3 +175,35 @@ footer > h2 {
 	padding-right: 2em;
 	background-color: grey;
 }
+
+@media only screen and (min-width: 25em) {
+	
+	.arrow-btn {
+		width: 30%;
+	}
+	
+}
+
+@media only screen and (min-width: 38em) {
+	
+	.arrow-btn {
+		width: 20%;
+	}
+	
+}
+
+@media only screen and (min-width: 60em) {
+	
+	.arrow-btn {
+		width: 15%;
+	}
+	
+}
+	
+	
+	
+	
+	
+	
+	
+	
