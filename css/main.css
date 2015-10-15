@@ -184,6 +184,10 @@ footer > h2 {
 	background-color: grey;
 }
 
+.tem-project-text {
+		text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
 	
 	.arrow-btn {
@@ -203,7 +207,7 @@ footer > h2 {
 @media only screen and (min-width: 60em) {
 	
 	.arrow-btn {
-		width: 15%;
+		width: 10%;
 	}
 	
 }

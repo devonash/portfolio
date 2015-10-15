@@ -54,11 +54,14 @@ p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
   margin: 0 0 1.3rem;
+	font-family: 'Oxygen', helvetica, sans-serif;
 }
 
 .yotta {
   font-size: 1.5745rem;
   line-height: 1.6513;
+	font-family: 'Oxygen', helvetica, sans-serif;
+	font-weight: 700;
 }
 
 .zetta {
@@ -69,16 +72,20 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.3830rem;
   line-height: 1.8800;
+	font-family: 'Oxygen', helvetica, sans-serif;
 }
 
 h2, .peta {
   font-size: 1.2962rem;
   line-height: 1.0030;
+	font-family: 'Oxygen', helvetica, sans-serif;
 }
 
 h3, .tera {
   font-size: 1.2148rem;
   line-height: 1.0702;
+	font-family: 'Oxygen', helvetica, sans-serif;
+	font-weight: 400;
 }
 
 h4, .giga {
