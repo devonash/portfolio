@@ -28,7 +28,7 @@ img {
 }
 
 .nav{
-	display: none;
+
 }
 
 .nav-check:checked ~ .nav {
@@ -42,6 +42,10 @@ img {
 
 .nav-check:checked ~ .nav-label {
 	background-color: grey;
+}
+
+a:focus {
+	outline: 3px solid black;
 }
 
 .billboard {
