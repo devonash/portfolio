@@ -112,12 +112,10 @@ img {
 	background-color: grey;
 }
 
-.hey {
-	text-align: center;
-}
-
 .about-para {
 	text-align: center;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
 }
 
 footer {
@@ -142,7 +140,7 @@ footer > h2 {
 }
 
 .media-links > a {
-    width: 50px;
+  width: 50px;
 	padding-top: 1em;
 	margin: 0.2em;
 	display: inline-block;
@@ -185,7 +183,7 @@ footer > h2 {
 }
 
 .tem-project-text {
-		text-align: center;
+	text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
@@ -194,6 +192,7 @@ footer > h2 {
 		width: 30%;
 	}
 	
+		
 }
 
 @media only screen and (min-width: 38em) {
