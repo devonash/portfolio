@@ -27,21 +27,12 @@ img {
     display: block;
 }
 
-.nav{
-
+.nav {
+	text-align: center;
 }
 
-.nav-check:checked ~ .nav {
-	display: block;
-}
-
-.nav-check {
-	position: absolute;
-	top: -3em;
-}
-
-.nav-check:checked ~ .nav-label {
-	background-color: grey;
+.nav li {
+	display: inline-block;
 }
 
 a:focus {
@@ -54,20 +45,6 @@ a:focus {
 
 .intro {
 	position: relative;
-}
-
-.toggle-ab {
-	position: absolute;
-}
-
-.toggle-rel {
-	position: relative;
-}
-
-.toggle-img {
-	width: 50px;
-	height: 50px;
-	margin-left: 25px;
 }
 
 .billboard-text {
@@ -94,7 +71,7 @@ a:focus {
 }
 
 .list-group > li {
-	padding: 0.5em;
+	padding: 1em;
 	padding-left: 0;
 }
 
@@ -206,6 +183,11 @@ footer > h2 {
 		margin-right: 2em;
 	}
 	
+	.list-group > li {
+		padding-left: 2em;
+		padding-right: 2em;
+}
+	
 }
 
 @media only screen and (min-width: 38em) {
@@ -223,6 +205,15 @@ footer > h2 {
 		margin-left: 6em;
 		margin-right: 6em;
 	}
+	
+	.nav {
+        text-align: right;
+    }
+	
+	.list-group > li {
+		padding-left: 1em;
+		padding-right: 1em;
+}
 	
 }
 
