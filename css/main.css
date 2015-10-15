@@ -192,13 +192,32 @@ footer > h2 {
 		width: 30%;
 	}
 	
-		
+	.about-para {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	
+	.tem-project-text {
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	
 }
 
 @media only screen and (min-width: 38em) {
 	
 	.arrow-btn {
 		width: 20%;
+	}
+		
+	.about-para {
+		margin-left: 6em;
+		margin-right: 6em;
+	}
+	
+	.tem-project-text {
+		margin-left: 6em;
+		margin-right: 6em;
 	}
 	
 }
@@ -209,12 +228,14 @@ footer > h2 {
 		width: 10%;
 	}
 	
+		.about-para {
+		margin-left: 16em;
+		margin-right: 16em;
+	}
+	
+	.tem-project-text {
+		margin-left: 16em;
+		margin-right: 16em;
+	}
+	
 }
-	
-	
-	
-	
-	
-	
-	
-	
