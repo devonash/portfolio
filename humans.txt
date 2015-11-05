@@ -1,0 +1,13 @@
+/* TEAM */
+
+Designer: Devon Ash
+Site: hey@devonash.ca
+Location: Ottawa, Canada
+
+---
+
+/* SITE */
+Last update: 2015/11/04
+Standards: HTML5
+Components: Jekyll
+Software: Brackets, Github

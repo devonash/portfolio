@@ -1,0 +1,3 @@
+Sitemap: https://devonash.ca/sitemap.xml
+
+User-agent: *
