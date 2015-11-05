@@ -1,6 +1,8 @@
 ---
 layout: work-template
 meta: meta description here
+next-piece: /piece4
+prev-piece: /piece2
 title: title here
 type: type of project
 description: problem/solution/result
