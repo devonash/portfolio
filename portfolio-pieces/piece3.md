@@ -1,5 +1,6 @@
 ---
 layout: work-template
+meta: meta description here
 title: title here
 type: type of project
 description: problem/solution/result
