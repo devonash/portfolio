@@ -55,11 +55,17 @@ img {
 
 .nav {
 	text-align: center;
+  background-color: #33393A;
 }
 
 .nav li {
 	display: inline-block;
 }
+
+.nav a {
+  color: #00A19B;
+}
+  
 
 a:focus {
 	outline: 3px solid black;
@@ -92,7 +98,7 @@ a:focus {
 
 .list-group > li > a {
 	text-decoration: none;
-	color: black;
+	color: #00A19B;
 	font-size: 16px;
 }
 
@@ -116,7 +122,7 @@ a:focus {
 	padding-bottom: 4em;
 	padding-left: 2em;
 	padding-right: 2em;
-	background-color: grey;
+	background-color: #B9DD26;
 }
 
 .about-para {
@@ -126,11 +132,17 @@ a:focus {
 }
 
 footer {
-	margin: 2em;
+	padding: 2em;
+  background-color: #33393A;
 }
 
 footer > h2 {
 	text-align: center;
+  color: #00A19B;
+}
+
+footer > p {
+  color: #00A19B;
 }
 
 .mail {
@@ -240,8 +252,8 @@ footer > h2 {
 	}
 	
 	.nav {
-        text-align: right;
-    }
+    text-align: right;
+  }
 	
 	.list-group > li {
 		padding-left: 1em;
