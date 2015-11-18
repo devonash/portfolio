@@ -47,6 +47,12 @@ img {
 	top: 0;
 }
 
+.wordmark {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
 .nav {
 	text-align: center;
 }
@@ -78,10 +84,10 @@ a:focus {
 }
 
 .list-group {
-  	padding-left: 0;
-  	list-style-type: none;
+  padding-left: 0;
+  list-style-type: none;
 	margin-left: 10px;
-	padding: 1em;
+	padding: 5px;
 }
 
 .list-group > li > a {
@@ -188,7 +194,7 @@ footer > h2 {
 }
 
 @media only screen and (min-width: 25em) {
-	
+  
 	.arrow-btn {
 		width: 30%;
 	}
@@ -211,7 +217,14 @@ footer > h2 {
 }
 
 @media only screen and (min-width: 38em) {
-	
+	  	
+  .wordmark {
+    width: 40%;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
 	.arrow-btn {
 		width: 20%;
 	}
@@ -239,6 +252,13 @@ footer > h2 {
 
 @media only screen and (min-width: 60em) {
 	
+  .wordmark {
+    width: 30%;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
 	.arrow-btn {
 		width: 10%;
 	}
