@@ -145,14 +145,15 @@ footer > p {
   color: #00A19B;
 }
 
-.mail {
+/*.mail {
 	text-align: center;
+  padding: 2em;
 }
 
 .mail > a {
 	text-decoration: none;
 	color: black;
-}
+}*/
 
 .media-links {
 	text-align: center;
