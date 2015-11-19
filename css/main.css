@@ -178,6 +178,7 @@ footer > p {
 
 .work-nav {
 	text-align: center;
+  background-color: #33393A;
 }
 
 .arrow-btn {
@@ -194,17 +195,19 @@ footer > p {
 }
 
 .project {
-	padding-top: 4em;
-	padding-bottom: 4em;
-	padding-left: 2em;
-	padding-right: 2em;
-	background-color: grey;
+  background-color: #B9DD26;
+  padding: 3em;
 }
 
 .tem-project-text {
 	text-align: center;
 }
 
+.typeof-project {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+  
 @media only screen and (min-width: 25em) {
   
 	.arrow-btn {
@@ -217,8 +220,8 @@ footer > p {
 	}
 	
 	.tem-project-text {
-		margin-left: 2em;
-		margin-right: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 	
 	.list-group > li {
