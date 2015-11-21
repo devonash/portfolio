@@ -231,6 +231,11 @@ footer > p {
     padding-top: 10px;
   }
   
+  .wordmark-worktemp {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
 	.arrow-btn {
 		width: 20%;
 	}
@@ -267,6 +272,11 @@ footer > p {
     margin-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
+  }
+  
+  .wordmark-worktemp {
+    width: 40%;
+    margin: 0 auto;
   }
   
 	.arrow-btn {
