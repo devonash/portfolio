@@ -152,7 +152,7 @@ footer > p {
 .media-links > a {
   width: 50px;
 	padding-top: 1em;
-	margin: 0.2em;
+  margin: 0.2em;
 	display: inline-block;
 }
 
@@ -165,6 +165,7 @@ footer > p {
 
 .copyright {
 	text-align: center;
+  color: #545454;
 }
 
 .work-nav {
@@ -186,7 +187,6 @@ footer > p {
 }
 
 .project {
-  background-color: #B9DD26;
   padding: 3em;
 }
 
@@ -197,6 +197,10 @@ footer > p {
 .typeof-project {
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.right-arrow {
+  padding-top: 1em;
 }
   
 @media only screen and (min-width: 25em) {
@@ -275,7 +279,7 @@ footer > p {
   }
   
   .wordmark-worktemp {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
   }
   
@@ -283,7 +287,7 @@ footer > p {
 		width: 10%;
 	}
 	
-		.about-para {
+  .about-para {
 		margin-left: 16em;
 		margin-right: 16em;
 	}
