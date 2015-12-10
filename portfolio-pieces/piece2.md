@@ -1,5 +1,5 @@
 ---
-layout: work-template
+layout: video-template
 meta: meta description here
 next-piece: /piece3
 prev-piece: /piece1
@@ -9,4 +9,5 @@ description: This piece was designed because of my love of breakfast food. Every
 img1: breakfast-1.jpg
 img2: breakfast-2.jpg
 img3: packaging-project-2.jpg
+vid: https://player.vimeo.com/video/125428813
 ---
