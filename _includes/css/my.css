@@ -110,7 +110,6 @@ a:focus {
 }
 
 .down-arrow {
-	height: 50px;
 	width: 50px;
 	margin: 0 auto;
 }
@@ -151,6 +150,7 @@ footer > p {
 
 .media-links {
 	text-align: center;
+  transition: all 500ms linear;
 }
 
 .media-links > a {
@@ -238,7 +238,7 @@ a {
 }
 
 .list-group a:hover {
-  color: #ffffff;
+  opacity: 0.7;
 }
 
 .notfound {
@@ -260,7 +260,19 @@ a {
 .try-again:hover {
   color: rgb(0,161,155);
 }
-  
+
+.behance:hover {
+  opacity: 0.7;
+}
+.linkedin:hover {
+  opacity: 0.7;
+}
+.vimeo:hover {
+  opacity: 0.7;
+}
+.email:hover {
+  opacity: 0.7;
+}
 @media only screen and (min-width: 25em) {
   
 	.arrow-btn {
