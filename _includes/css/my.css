@@ -55,7 +55,7 @@ img {
 
 .nav {
 	text-align: center;
-  background-color: #33393A;
+  background-color: #1a1a1a;
 }
 
 .nav li {
@@ -117,7 +117,7 @@ a:focus {
 
 footer {
 	padding: 2em;
-  background-color: #33393A;
+  background-color: #1a1a1a;
 }
 
 footer > h2 {
@@ -154,7 +154,7 @@ footer > p {
 
 .work-nav {
 	text-align: center;
-  background-color: #33393A;
+  background-color: #1a1a1a;
 }
 
 .arrow-btn {
