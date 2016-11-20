@@ -183,6 +183,11 @@ footer > p {
   text-transform: uppercase;
 }
 
+.tem-project-text {
+  line-height: 1.5em;
+  font-weight: 200;
+}
+
 .right-arrow {
   padding-top: 1em;
 }
