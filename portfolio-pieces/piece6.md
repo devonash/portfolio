@@ -1,7 +1,7 @@
 ---
 layout: work-template
 meta: meta description here
-next-piece: /piece1
+next-piece: /piece7
 prev-piece: /piece5
 title: Mountaingoat Yoga Logo Re-Design
 type: Branding

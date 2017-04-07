@@ -115,6 +115,10 @@ a:focus {
 	margin-right: 0.2em;
 }
 
+.portfolio-bg {
+  background-color: grey;
+}
+
 footer {
 	padding: 2em;
   background-color: #1a1a1a;
