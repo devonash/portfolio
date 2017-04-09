@@ -101,6 +101,9 @@ a:focus {
   display: inline-block;
 }
 
+.portfolio-bg {
+  background-color: grey;
+}
 
 .about {
 	padding-top: 4em;
@@ -281,10 +284,6 @@ a {
   
   .media-links > a {
     margin: 5px;
-  }
-  
-  .portfolio-bg {
-  background-color: grey;
   }
 
 }
