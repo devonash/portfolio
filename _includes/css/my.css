@@ -18,8 +18,8 @@ html {
   box-sizing: inherit;
 }
 
-#chromeFix { 
-    display: block; position: absolute; width: 1px; height: 100%; top: 0px; left: 0px; 
+body:after { 
+    background-color: grey;
 }
 
 body {
